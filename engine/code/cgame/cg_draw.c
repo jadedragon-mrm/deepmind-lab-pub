@@ -2578,7 +2578,7 @@ static void CG_Draw2D(stereoFrame_t stereoFrame)
 		CG_DrawCrosshairNames();
 	} else {
 		// don't draw any status if dead or the scoreboard is being explicitly shown
-		if ( !cg.showScores && cg.snap->ps.stats[STAT_HEALTH] > 0 ) {
+		if ( !cg.showScores && cg.snap->ps.stats[STAT_HEALTH] > 200 ) {
 
 #ifdef MISSIONPACK
 			if ( cg_drawStatus.integer ) {

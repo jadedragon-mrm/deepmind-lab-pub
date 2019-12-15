@@ -32,7 +32,8 @@ constexpr int kPlatformThickness = 2;
 constexpr double kBorderThickness = 0.075;
 
 // Default size used for skybox.
-const Eigen::Vector2i kSkyboxTextureSize = {1024, 1024};
+//const Eigen::Vector2i kSkyboxTextureSize = {1024, 1024};
+const Eigen::Vector2i kSkyboxTextureSize = {256, 256};
 
 struct TextureFile {
   std::string name;
